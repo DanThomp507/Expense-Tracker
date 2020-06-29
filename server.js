@@ -4,6 +4,7 @@ const passport = require('passport')
 const bodyParser = require('body-parser')
 const path = require('path')
 const { port } = require('./config/keys')
+require('./db')
 
 const app = express()
 
